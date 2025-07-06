@@ -103,7 +103,7 @@ function App() {
       });
 
       if (!response.ok) {
-        throw new Error('فشل في البحث. تأكد من تشغيل الخادم.');
+        throw new Error('فشل في البحdث. تأكد من تشغيل الخادم.');
       }
 
       const data = await response.json();
