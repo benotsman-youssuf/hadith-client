@@ -91,7 +91,7 @@ function App() {
       // Translate Arabic query to English
       const translatedQuery = await translateToEnglish(term);
       
-      const response = await fetch('http://4.233.140.150:3002/api/search', {
+      const response = await fetch('/api/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
